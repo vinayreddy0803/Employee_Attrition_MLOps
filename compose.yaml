@@ -1,0 +1,5 @@
+services:
+  attrition-trainer:
+    build: .
+    image: employee-attrition-mlops
+    container_name: attrition-trainer
